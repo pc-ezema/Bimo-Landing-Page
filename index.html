@@ -427,7 +427,7 @@
                 $("#formMessage").html("");
 
                 $.ajax({
-                    url: "http://127.0.0.1:8000/api/v1/account/delete-request", // adjust route name
+                    url: "https://api.bimojobs.com/api/v1/account/delete-request", // adjust route name
                     type: "POST",
                     data: $(this).serialize(),
                     headers: {
