@@ -1351,3 +1351,12 @@ footer .logo {
         font-size: 0.9rem;
     }
 }
+
+
+.app-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
